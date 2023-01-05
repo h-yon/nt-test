@@ -4,6 +4,5 @@ $ yarn --silent tsc && node dist/index.js
   number: 1,
   numbers1: [ 0 ],
   numbers2: [ 0, 1 ],
-  numbers3: [ 0, 1, 2 ],
-  numbers4: [ 0, 1, 2, 3 ]
+  numbers3: [ 0, 1, 2 ]
 }

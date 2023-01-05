@@ -9,7 +9,6 @@ type SomeObject = {
   numbers1: number[]
   numbers2: number[]
   numbers3: number[]
-  numbers4: number[]
 }
 
 const generate = (): Result<SomeObject, never> => {
@@ -19,17 +18,15 @@ const generate = (): Result<SomeObject, never> => {
   const numbers1 = Result.combine([...Array(1).keys()].map(ok))
   const numbers2 = Result.combine([...Array(2).keys()].map(ok))
   const numbers3 = Result.combine([...Array(3).keys()].map(ok))
-  const numbers4 = Result.combine([...Array(4).keys()].map(ok))
 
-  const values = Result.combine(tuple(string, number, numbers1, numbers2, numbers3, numbers4))
+  const values = Result.combine(tuple(string, number, numbers1, numbers2, numbers3))
 
-  return values.map(([string, number, numbers1, numbers2, numbers3, numbers4]) => ({
+  return values.map(([string, number, numbers1, numbers2, numbers3]) => ({
     string,
     number,
     numbers1,
     numbers2,
     numbers3,
-    numbers4,
   }))
 }
 
