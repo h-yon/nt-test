@@ -1,0 +1,17 @@
+$ yarn --silent tsc; node dist/index.js
+src/index.ts:26:22 - error TS2488: Type 'never' must have a '[Symbol.iterator]()' method that returns an iterator.
+
+26   return values.map(([string, number, numbers1, numbers2, numbers3, numbers4]) => ({
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 1 error in src/index.ts:26
+
+{
+  string: 'string',
+  number: 1,
+  numbers1: [ 0 ],
+  numbers2: [ 0, 1 ],
+  numbers3: [ 0, 1, 2 ],
+  numbers4: [ 0, 1, 2, 3 ]
+}
