@@ -1,0 +1,15 @@
+{
+  "name": "nt-test",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/h-yon/nt-test.git",
+  "author": "h-yon <22876199+h-yon@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "neverthrow": "6.0.0"
+  }
+}
