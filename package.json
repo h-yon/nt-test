@@ -11,6 +11,6 @@
     "typescript": "4.9.4"
   },
   "dependencies": {
-    "neverthrow": "6.0.0"
+    "neverthrow": "5.0.1"
   }
 }

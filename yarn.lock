@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
   integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
 
-neverthrow@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-6.0.0.tgz#bacd7661cade296ccc5c35760bb3b679214155b6"
-  integrity sha512-kPZKRs4VkdloCGQXPoP84q4sT/1Z+lYM61AXyV8wWa2hnuo5KpPBF2S3crSFnMrOgUISmEBP8Vo/ngGZX60NhA==
+neverthrow@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-5.0.1.tgz#b3afa0b3b3401db432a82b1352adf8eb8e213633"
+  integrity sha512-oibO4xhEP3bqnTTLZ+c8eOaavP4T3HUZuCuWyw+OcwThXD9fOgf7XwkEc5mpvrVhIrhH87JU30CmWzUfBYIUMg==
 
 typescript@4.9.4:
   version "4.9.4"
